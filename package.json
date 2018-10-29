@@ -8,6 +8,7 @@
         "check": "npm run docs:lint && npm run lint && npm run test && npm run functional",
         "check:light": "npm run lint && npm run test",
         "dev": "cross-env NODE_ENV=dev webpack-dev-server --mode=development --content-base sandbox --config webpack.config.js --inline --hot --port 3002",
+        "dev2": "webpack-dev-server --content-base sandbox --hot --watch-poll --port 8081 --mode=development",
         "dist:rd3g": "rm -rf dist/ && webpack --config webpack.config.dist.js -p --display-modules --optimize-minimize",
         "dist:sandbox": "webpack --config webpack.config.js -p",
         "dist:transpile": "./node_modules/babel-cli/bin/babel.js -d lib src",

@@ -1,7 +1,7 @@
 // only with pure configuration it's easy to replicate graphs such as
 // http://bl.ocks.org/eesur/be2abfb3155a38be4de4 using react-d3-graph
 module.exports = {
-    directed: true,
+    // directed: true,
     automaticRearrangeAfterDropNode: true,
     collapsible: true,
     height: 400,
@@ -16,7 +16,7 @@ module.exports = {
     width: 800,
     d3: {
         alphaTarget: 0.05,
-        gravity: -250,
+        gravity: -650,
         linkLength: 120,
         linkStrength: 2
     },
@@ -47,7 +47,7 @@ module.exports = {
         mouseCursor: 'pointer',
         opacity: 1,
         semanticStrokeWidth: true,
-        strokeWidth: 3,
+        strokeWidth: 1,
         type: 'STRAIGHT'
     }
 };

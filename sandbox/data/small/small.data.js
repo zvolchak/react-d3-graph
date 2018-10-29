@@ -15,6 +15,10 @@ module.exports = {
         {
             source: 3,
             target: 4
+        },
+        {
+            source: 3,
+            target: 5
         }
     ],
     nodes: [
@@ -33,6 +37,10 @@ module.exports = {
         {
             id: 4,
             name: 'Node 4'
+        },
+        {
+            id: 5,
+            name: 'Node 5'
         }
     ]
 };

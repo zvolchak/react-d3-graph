@@ -1,147 +1,42 @@
 module.exports = {
     links: [
         {
-            source: 'Androsynth',
-            target: 'Chenjesu'
+            source: 1,
+            target: 2
         },
         {
-            source: 'Androsynth',
-            target: 'Ilwrath'
+            source: 1,
+            target: 3
         },
         {
-            source: 'Androsynth',
-            target: 'Mycon'
+            source: 3,
+            target: 4
         },
         {
-            source: 'Androsynth',
-            target: 'Spathi'
-        },
-        {
-            source: 'Androsynth',
-            target: 'Umgah'
-        },
-        {
-            source: 'Androsynth',
-            target: 'VUX'
-        },
-        {
-            source: 'Chenjesu',
-            target: 'Mycon'
-        },
-        {
-            source: 'Chenjesu',
-            target: 'Spathi'
-        },
-        {
-            source: 'Chenjesu',
-            target: 'Umgah'
-        },
-        {
-            source: 'Chenjesu',
-            target: 'VUX'
-        },
-        {
-            source: 'Ilwrath',
-            target: 'Spathi'
-        },
-        {
-            source: 'Ilwrath',
-            target: 'Umgah'
-        },
-        {
-            source: 'Ilwrath',
-            target: 'VUX'
-        },
-        {
-            source: 'Mycon',
-            target: 'Umgah'
-        },
-        {
-            source: 'Mycon',
-            target: 'VUX'
-        },
-        {
-            source: 'Umgah',
-            target: 'VUX'
-        },
-        {
-            source: 'Androsynth',
-            target: 'Guardian'
-        },
-        {
-            source: 'Chenjesu',
-            target: 'Broodhmome'
-        },
-        {
-            source: 'Ilwrath',
-            target: 'Avenger'
-        },
-        {
-            source: 'Mycon',
-            target: 'Podship'
-        },
-        {
-            source: 'Spathi',
-            target: 'Eluder'
-        },
-        {
-            source: 'Umgah',
-            target: 'Drone'
-        },
-        {
-            source: 'VUX',
-            target: 'Intruder'
+            source: 3,
+            target: 5
         }
     ],
     nodes: [
         {
-            id: 'Androsynth'
+            id: 1,
+            name: 'Node 1'
         },
         {
-            id: 'Chenjesu'
+            id: 2,
+            name: 'Node 2'
         },
         {
-            id: 'Ilwrath'
+            id: 3,
+            name: 'Node 3'
         },
         {
-            id: 'Mycon'
+            id: 4,
+            name: 'Node 4'
         },
         {
-            id: 'Spathi'
-        },
-        {
-            id: 'Umgah'
-        },
-        {
-            id: 'VUX'
-        },
-        {
-            id: 'Guardian',
-            symbolType: 'square'
-        },
-        {
-            id: 'Broodhmome',
-            symbolType: 'square'
-        },
-        {
-            id: 'Avenger',
-            symbolType: 'square'
-        },
-        {
-            id: 'Podship',
-            symbolType: 'square'
-        },
-        {
-            id: 'Eluder',
-            symbolType: 'square'
-        },
-        {
-            id: 'Drone',
-            symbolType: 'square'
-        },
-        {
-            id: 'Intruder',
-            symbolType: 'square'
+            id: 5,
+            name: 'Node 5'
         }
     ]
 };

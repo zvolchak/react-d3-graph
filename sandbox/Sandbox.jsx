@@ -6,7 +6,8 @@ import Form from 'react-jsonschema-form';
 
 import './styles.css';
 
-import defaultConfig from '../src/components/graph/graph.config';
+import defaultConfig from './data/marvel/marvel.config';
+// import defaultConfig from '../src/components/graph/graph.config';
 import { Graph } from '../src';
 import utils from './utils';
 import reactD3GraphUtils from '../src/utils';
